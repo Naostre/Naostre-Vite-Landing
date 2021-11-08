@@ -1,0 +1,19 @@
+{
+  "name": "naostre-landing",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.4",
+    "sass": "^1.43.4",
+    "typescript": "^4.3.2",
+    "unocss": "^0.4.15",
+    "vite": "^2.6.4"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

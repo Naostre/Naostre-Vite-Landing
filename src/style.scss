@@ -1,0 +1,73 @@
+@import 'node_modules/aos/src/sass/aos.scss';
+
+:root {
+  --c-main: #ffffe5;
+  --c-alt: #A9F1DF;
+  --c-theme: #1EAE98;
+  --c-contrast: #233E8B;
+  --c-accent: #D36582;
+}
+
+html, body {
+  font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #A9F1DF;
+}
+body {
+  background-image: url('assets/pattern.min.svg');
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vw;
+}
+h1 {
+  margin: 0;
+}
+nav {
+  position: sticky;
+  margin: 20px;
+  top: 20px;
+  border-top: 3px solid #0001;
+  align-items: stretch;
+}
+a {
+  text-decoration: none;
+}
+nav>a {
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0 10px;
+  color: var(--c-contrast);
+  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transition: color ease-in-out .2s;
+}
+nav>a:hover {
+  background: rgba(0, 0, 0, 0.02);
+  color: var(--c-accent);
+}
+header {
+  justify-content: space-evenly;
+}
+header>div {
+  flex: 1 1 max(40%, 300px);
+}
+header>img {
+  max-width: 100%;
+  border-top: 5px solid var(--c-main);
+  align-self: center;
+}
+[flow=""]>div,[NGC=""]>div {
+  flex: 1 1 300px;
+  text-align: center;
+  background: var(--c-main);
+  border-radius: 15px;
+  min-height: 150px;
+}
+[textLogo=""] {
+  padding-top: 15px;
+  text-align: center;
+}
