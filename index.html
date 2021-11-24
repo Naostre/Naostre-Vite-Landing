@@ -4,64 +4,110 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Naostre Team</title>
+    <title>Naostre</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet"> 
   </head>
   <body>
-    <section title="logo" data-aos="fade-down" textLogo>
-      <h1>Naostre</h1>
-    </section>
-    <nav dshadow bg-main border-rd-8 p3 m10 flex flex-wrap gap-10 justify-evenly content-center>
-      <a href="#App">App</a>
-      <a href="#Nous">Nous</a>
-      <a href="#brand">Brand</a>
-      <a href="#Contact">Contact</a>
+    <nav dshadow bg-main border-rd-4 p3 m10 flex flex-wrap gap-10 justify-evenly content-center>
+      <img src="assets/N_Bleu.svg" height="75" width="75">
+      <a href="#App">Notre solution</a>
+      <a href="#team">Notre équipe</a>
+      <a href="#brand">A propos de Naostre</a>
+      <a href="#contact">Contact</a>
     </nav>
     <header flex flex-wrap p10 gap-10>
       <div text-center flex flex-col justify-center>
-        <h2 c-contrast my5>Embarquez vos collaborateurs dans votre démarche environnementale</h2>
-        <p>
-          Créez des campagnes et invitez des milliers de collaborateurs en quelques cliques!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque voluptatum soluta ad fugit dolor neque incidunt quisquam id, autem quis corrupti tempore omnis, qui voluptates libero molestiae harum culpa tenetur, earum eveniet! Nulla quod aspernatur, eaque eos a numquam earum veritatis doloremque dolorem impedit laudantium quibusdam quisquam saepe illo!
-        </p>
+        <h2 c-contrast my text-9>Embarquez vos collaborateurs dans votre démarche environnementale</h2>
+          <p text-6>Créez des campagnes et invitez des milliers de collaborateurs en quelques cliques!</p>
         <div>
-          <a href="" inline-block my5 p5 bg-contrast c-main border-rd-8>Demandez une démo!</a>
+          <a text-5 href="mailto:contact@naostre.com" inline-block my5 p5 bg-contrast c-main border-rd-8>Demandez une démo!</a>
         </div>  
       </div>
-      <img border-rd-5 dshadow src="https://picsum.photos/id/244/800/400" alt="">
+      <img src="assets/image_header_V2.png" height="700">
     </header>
     <main py10>
       <section title="Notre application" id="App">
-        <h2 text-center c-contrast text-13>L'application Naostre</h2>
+        <h3 text-center c-contrast text-9>L'application Naostre</h3>
         <div title="Chronologie de l'utilisation de l'application" flow flex flex-wrap p10 gap-10>
-          <div data-aos="fade-right">a</div>
-          <div data-aos="fade">b</div>
-          <div data-aos="fade-left">c</div>
+          <div data-aos="fade-right">
+            <img src="assets/creation.png" height="300">
+          </div>
+          <div data-aos="fade">
+            <img src="assets/diffusion.svg" height="300">
+          </div>
+          <div data-aos="fade-left">
+            <img src="assets/resultats_2.png" height="300">
+          </div>
         </div>
-        <h3 text-center c-contrast text-8>Campagne Nos GEStes Climat</h3>
+        <h3 text-center c-contrast text-9>Campagne Nos Gestes Climat</h3>
         <div title="Campagne Nos GEStes Climat" NGC flex flex-wrap p10 gap-10>
-          <div data-aos="fade-right">a</div>
-          <div data-aos="fade-left">b</div>
+          <div data-aos="fade-right">
+            <p text-justify text-6 p-15>
+              A l’aide de Naostre, partagez le calculateur Nos Gestes Climat à tous les services de votre entreprise puis analysez et 
+              comparez les réponses afin d’adopter les meilleures stratégies de communication auprès de vos collaborateurs. 
+              Le calculateur d’empreinte carbone individuel développé par l’ADEME garantie la fiabilité des données avec plus de 10 ans de 
+              développement Open Source.Naostre garanti la confidentialité des réponses et respecte la vie privée des utilisateurs. 
+            </p>
+          </div>
+          <div data-aos="fade-left">
+            <img src="assets/PC_NGC.png" height="300">
+          </div>
         </div>
       </section>
-      <section title="Nous" id="Nous">
-        <h2 text-center c-contrast text-13>Nous</h2>
+      <section title="Notre équipe" id="team">
+        <h2 text-center c-contrast text-9>A propos de nous</h2>
         <div title="Présentation de l'équipe" flow flex flex-wrap p10 gap-10>
-          <div data-aos="fade-right">a</div>
-          <div data-aos="fade-left">b</div>
+          <div data-aos="fade-right">
+            <img class="img-team" src="assets/team.svg">
+          </div>
+          <div data-aos="fade-left">
+            <p text-justify text-6 p-15>
+              Concernés par l'urgence climatique, Naostre met son énergie au service des entreprises s’investissant dans une démarche durable.
+              Notre préoccupation principale est de sensibiliser les collaborateurs d'une entreprise sur les sujets environnementaux et de libérer 
+              le potentiel d'action de chacun. Nous pensons que la transformation d'une société est le fruit d'un effort individuel, qui, 
+              déployé à grande échelle, se transforme en effort collectif. 
+              Si la somme des individus change, alors c'est toute l'entreprise qui change. 
+              L'entreprise est l'endroit idéal pour le changement puisqu'elle dispose de moyens, 
+              de ressources et d'une culture qu’il est nécessaire de faire évoluer.
+            </p> 
+          </div>
         </div>
       </section>
-      <section title="Contact" id="Contact">
-        <h2 text-center c-contrast text-13>Contact</h2>
+      <section title="Naostre en deux mots" id="brand">
+        <h2 text-center c-contrast text-9>Naostre en deux mots</h2>
+        <div title="Présentation de l'équipe" flow flex flex-wrap p10 gap-10>
+          <div data-aos="fade-right">
+            <img src="assets/Naostre_Bleu.svg" height="120">
+          </div>
+          <div data-aos="fade-left">
+            <p text-justify text-6 p-15>
+              NANTES qui se dit Naoned en Breton. Ville de création de l'application mais aussi ville natale de toute l'équipe.<br>
+              EOSTRE la déesse anglo-saxonne du printemps. Elle apporte l’énergie du renouveau de la nature et de la fertilité.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section title="Contact" id="contact">
+        <h2 text-center c-contrast text-9>Contact</h2>
         <p text-center text-6>N'hésitez pas à nous contacter à <a href="mailto:contact@naostre.com" c-accent>contact@naostre.com</a></p>
       </section>
     </main>
     <footer bg-contrast c-main flex flex-wrap p5 gap-5 justify-evenly>
-      <div>Logo</div>
-      <div>Social</div>
-      <div>Mentions Légales</div>
+      <div>
+        <img src="assets/Naostre_Blanc.svg" height="50">
+      </div>
+      <div flex gap-10>
+        <a href="https://www.linkedin.com/company/naostre" target="_blank"><img src="assets/linkedin.svg" height="50"></a>
+        <a href="https://twitter.com/naostre" target="_blank"><img src="assets/twitter.svg" height="50"></a>
+      </div>
+      <div>
+        <p text-center text-5>Mentions légales</p>
+      </div>
+      <div>
+        <p text-center text-5>Charte graphique par <a text-underline color-white href="https://aureliencolloc.com/" target="_blank">Aurelien Colloc</a></p>
+      </div>
     </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>

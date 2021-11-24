@@ -7,7 +7,7 @@ export default {
     Unocss({
       theme: {
         colors: {
-          main: "#ffffe5",
+          main: "#ffff",
           alt: "#A9F1DF",
           theme: "#1EAE98",
           contrast: "#233E8B",
@@ -20,8 +20,8 @@ export default {
         // ...custom presets
       ],
       rules: [
-        ['dshadow', { "box-shadow": "0 0 10px 0px #2227"}]
+        ['dshadow', { "box-shadow": "0 0 10px 0px #2227" }]
       ]
-     })
+    })
   ]
 }

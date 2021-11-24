@@ -1,7 +1,7 @@
 @import 'node_modules/aos/src/sass/aos.scss';
 
 :root {
-  --c-main: #ffffe5;
+  --c-main: #FFFF;
   --c-alt: #A9F1DF;
   --c-theme: #1EAE98;
   --c-contrast: #233E8B;
@@ -12,7 +12,7 @@ html, body {
   font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #A9F1DF;
+  background-color: #ffd9e2;
 }
 body {
   background-image: url('assets/pattern.min.svg');
@@ -26,11 +26,10 @@ h1 {
   margin: 0;
 }
 nav {
-  position: sticky;
   margin: 20px;
   top: 20px;
   border-top: 3px solid #0001;
-  align-items: stretch;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -41,12 +40,9 @@ nav>a {
   border-radius: 5px;
   padding: 0 10px;
   color: var(--c-contrast);
-  border-top: 2px solid currentColor;
-  border-bottom: 2px solid currentColor;
   transition: color ease-in-out .2s;
 }
 nav>a:hover {
-  background: rgba(0, 0, 0, 0.02);
   color: var(--c-accent);
 }
 header {
@@ -70,4 +66,7 @@ header>img {
 [textLogo=""] {
   padding-top: 15px;
   text-align: center;
+}
+.img-team {
+  width: max(500px,30%);
 }
