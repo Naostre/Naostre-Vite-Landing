@@ -1,6 +1,7 @@
 import Unocss from 'unocss/vite'
 
 import { presetUno, presetAttributify } from 'unocss'
+import ViteFonts from 'vite-plugin-fonts'
 
 export default {
   plugins: [
@@ -22,6 +23,18 @@ export default {
       rules: [
         ['dshadow', { "box-shadow": "0 0 10px 0px #2227" }]
       ]
+    }),
+    ViteFonts({
+      google: {
+        preconnect: true,
+        families: [
+          'Roboto',
+          {
+            name: 'Roboto',
+            defer: true
+          }
+        ]
+      },
     })
   ]
 }

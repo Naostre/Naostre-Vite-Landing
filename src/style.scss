@@ -12,7 +12,7 @@ html, body {
   font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #ffd9e2;
+  background-color: #ffff;
 }
 body {
   background-image: url('assets/pattern.min.svg');
@@ -20,16 +20,17 @@ body {
   overflow-x: hidden;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-size: 100vw 100vw;
+  background-size: 100vw 200vw;
+  padding-top: 20px;
 }
 h1 {
   margin: 0;
 }
 nav {
-  margin: 20px;
   top: 20px;
   border-top: 3px solid #0001;
   align-items: center;
+  position: sticky;
 }
 a {
   text-decoration: none;
@@ -48,22 +49,25 @@ nav>a:hover {
 header {
   justify-content: space-evenly;
 }
+
 header>div {
   flex: 1 1 max(40%, 300px);
 }
 header>img {
-  max-width: 100%;
-  border-top: 5px solid var(--c-main);
+  width: min(95%, 1000px);
   align-self: center;
+  height: auto;
 }
-[flow=""]>div,[NGC=""]>div {
+[flow]>div,[NGC]>div {
   flex: 1 1 300px;
   text-align: center;
-  background: var(--c-main);
   border-radius: 15px;
   min-height: 150px;
 }
-[textLogo=""] {
+[bg] {
+  background: var(--c-main);
+}
+[textLogo] {
   padding-top: 15px;
   text-align: center;
 }

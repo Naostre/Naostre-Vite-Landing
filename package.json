@@ -11,7 +11,8 @@
     "sass": "^1.43.4",
     "typescript": "^4.3.2",
     "unocss": "^0.4.15",
-    "vite": "^2.6.4"
+    "vite": "^2.6.4",
+    "vite-plugin-fonts": "^0.2.2"
   },
   "dependencies": {
     "aos": "^2.3.4"
