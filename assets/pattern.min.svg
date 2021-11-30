@@ -5,8 +5,8 @@
    <stop stop-color="#d36582" offset="0"/>
    <stop stop-color="#dad4ef" offset="1"/>
   </linearGradient>
-  <linearGradient id="linearGradient4858" x1="197" x2="372" y1="228" y2="228" gradientTransform="matrix(.79 0 0 1 1.7 -22)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4856"/>
-  <linearGradient id="linearGradient6514" x1="197" x2="372" y1="228" y2="228" gradientTransform="matrix(.73 0 0 1.3 249 -29)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4856"/>
+  <linearGradient id="linearGradient4858" x1="197" x2="372" y1="228" y2="228" gradientTransform="matrix(.79 0 0 1 5.5 -27)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4856"/>
+  <linearGradient id="linearGradient6514" x1="197" x2="372" y1="228" y2="228" gradientTransform="matrix(.55 0 0 1 296 8.5)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4856"/>
   <linearGradient id="linearGradient6877" x1="197" x2="372" y1="228" y2="228" gradientTransform="matrix(.69 0 0 .51 73 429)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4856"/>
   <linearGradient id="linearGradient6913" x1="197" x2="372" y1="228" y2="228" gradientTransform="matrix(.53 0 0 .35 326 347)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4856"/>
   <linearGradient id="linearGradient7696" x1="197" x2="372" y1="228" y2="228" gradientTransform="matrix(.73 0 0 .65 63 564)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4856"/>
@@ -14,8 +14,8 @@
  </defs>
  <g transform="translate(-158 -137)">
   <g>
-   <path d="m190 235c18 21-7.8 65 68 33 152-64-206-220-68-33z" fill="url(#linearGradient4858)" stroke-width=".9"/>
-   <path d="m403 303c17 27 13 81 84 40 76-44 62-163 8.9-189-45-21-151 38-93 149z" fill="url(#linearGradient6514)" stroke-width=".98"/>
+   <path d="m194 231c18 21-7.8 65 68 33 152-64-206-220-68-33z" fill="url(#linearGradient4858)" stroke-width=".9"/>
+   <path d="m437 233c13 20-16 87 37 56 57-33 47-123 7.1-142-24-12-86 5.8-87 45-0.45 16 31 17 43 41z" fill="url(#linearGradient6514)" stroke-width=".74"/>
    <path d="m197 546c16 11 39 5.4 105-10 72-17 81-88 46-124-28-29-89 49-109 36-108-71-92 48-42 99z" fill="url(#linearGradient6877)" stroke-width=".6"/>
    <path d="m375 925c14 8.4 51 4.8 109-7.9 62-14 70-70 40-100-24-23-145-103-94 28 25 63-19 37-46 37-16 0.15-25 26-8.5 42z" fill="url(#linearGradient7732)" stroke-width=".5"/>
    <path d="m437 436c12 7.2 9.6 22 60 11 55-12 44-44 6.4-50-32-5.7-108 10-67 40z" fill="url(#linearGradient6913)" stroke-width=".43"/>
