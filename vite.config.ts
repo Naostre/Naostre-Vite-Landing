@@ -28,9 +28,9 @@ export default {
       google: {
         preconnect: true,
         families: [
-          'Roboto',
+          'Nunito',
           {
-            name: 'Roboto',
+            name: 'Nunito',
             defer: true
           }
         ]
