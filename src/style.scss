@@ -75,3 +75,12 @@ header>img {
 .img-team {
   width: max(500px,30%);
 }
+[return-btn] {
+  position: sticky;
+  top: 5vmin;
+  left: 25px;
+  background: #fff;
+  border: 50%;
+  text-decoration: none;
+  color: black;
+}
