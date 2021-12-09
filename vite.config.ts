@@ -3,6 +3,9 @@ import Unocss from 'unocss/vite'
 import { presetUno, presetAttributify } from 'unocss'
 import ViteFonts from 'vite-plugin-fonts'
 
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+
 export default {
   plugins: [
     Unocss({
@@ -36,5 +39,13 @@ export default {
         ]
       },
     })
-  ]
+  ],
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        nested: resolve(__dirname, 'mentionsLegales/index.html')
+      }
+    }
+  }
 }
