@@ -14,8 +14,10 @@ html, body {
   padding: 0;
   background-color: #ffff;
 }
-body {
+.main {
   background-image: url('../assets/pattern.svg');
+}
+body {  
   overflow-y: scroll;
   overflow-x: hidden;
   background-repeat: repeat;
@@ -30,7 +32,7 @@ nav {
   top: 20px;
   border-top: 3px solid #0001;
   align-items: center;
-  position: sticky;
+  position: static;
   z-index: 10;
 }
 a {
