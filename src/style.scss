@@ -14,8 +14,10 @@ html, body {
   padding: 0;
   background-color: #ffff;
 }
-body {
+.main {
   background-image: url('../assets/pattern.svg');
+}
+body {  
   overflow-y: scroll;
   overflow-x: hidden;
   background-repeat: repeat;
