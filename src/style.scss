@@ -84,3 +84,8 @@ header>img {
   text-decoration: none;
   color: black;
 }
+@media screen and (max-width: 1250px) {
+  nav {
+    flex-direction: column;
+  }
+}
