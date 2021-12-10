@@ -47,5 +47,11 @@ export default {
         nested: resolve(__dirname, 'mentionsLegales/index.html')
       }
     }
+  },
+  server: {
+    port: 3000
+  },
+  preview: {
+    port: 5001
   }
 }
