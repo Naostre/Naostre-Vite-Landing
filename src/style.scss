@@ -1,7 +1,7 @@
 @import 'node_modules/aos/src/sass/aos.scss';
 
 :root {
-  --c-main: #ffffe5;
+  --c-main: #FFFF;
   --c-alt: #A9F1DF;
   --c-theme: #1EAE98;
   --c-contrast: #233E8B;
@@ -12,62 +12,121 @@ html, body {
   font-family: "Nunito", Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #A9F1DF;
+  background-color: #ffff;
 }
-body {
-  background-image: url('assets/pattern.min.svg');
+.main {
+  background-image: url('../assets/pattern.svg');
+}
+body {  
   overflow-y: scroll;
   overflow-x: hidden;
   background-repeat: repeat;
   background-attachment: fixed;
-  background-size: 100vw 100vw;
+  background-size: 100vw 200vw;
+  padding-top: 20px;
+}
+p {
+  font-size: calc(.5vw + 10px);
+  padding: 5%; 
 }
 h1 {
+  font-size: calc(1.5vw + 20px);
   margin: 0;
 }
+h2{
+  font-size: calc(1vw + 15px);
+}
+h3{
+  font-size: calc(1vw + 25px);
+}
 nav {
-  position: sticky;
-  margin: 20px;
   top: 20px;
   border-top: 3px solid #0001;
-  align-items: stretch;
+  align-items: center;
+  position: static;
+  z-index: 10;
 }
 a {
   text-decoration: none;
 }
+nav img {
+  width: min(20%, 50px);
+  height: auto;
+}
 nav>a {
-  font-size: 2em;
+  font-size: calc(1.5vw + 10px);
   font-weight: bold;
   border-radius: 5px;
   padding: 0 10px;
   color: var(--c-contrast);
-  border-top: 2px solid currentColor;
-  border-bottom: 2px solid currentColor;
   transition: color ease-in-out .2s;
+  text-align: center;
 }
 nav>a:hover {
-  background: rgba(0, 0, 0, 0.02);
   color: var(--c-accent);
 }
 header {
   justify-content: space-evenly;
 }
+header a{
+  padding: 2%;
+  font-size: calc(1vw + 10px);
+}
 header>div {
   flex: 1 1 max(40%, 300px);
 }
 header>img {
-  max-width: 100%;
-  border-top: 5px solid var(--c-main);
+  width: min(95%, 1000px);
   align-self: center;
+  height: auto;
 }
-[flow=""]>div,[NGC=""]>div {
+[app] img {
+  width: min(90%, 500px);
+  align-self: center;
+  height: auto;
+}
+[NGC] img {
+  width: min(90%, 400px);
+  align-self: center;
+  height: auto;
+}
+[team] img {
+  width: min(90%, 900px);
+  align-self: center;
+  height: auto;
+}
+[brand] img {
+  width: min(90%, 400px);
+  align-self: center;
+  height: auto;
+}
+[flow]>div,[NGC]>div {
   flex: 1 1 300px;
   text-align: center;
-  background: var(--c-main);
   border-radius: 15px;
   min-height: 150px;
 }
-[textLogo=""] {
+[bg] {
+  background: var(--c-main);
+}
+[textLogo] {
   padding-top: 15px;
   text-align: center;
+}
+[return-btn] {
+  position: sticky;
+  top: 5vmin;
+  left: 25px;
+  background: #fff;
+  border: 50%;
+  text-decoration: none;
+  color: black;
+}
+footer p{
+  padding: 0;
+}
+@media screen and (max-width: 1250px) {
+  nav {
+    flex-direction: column;
+  }
 }
